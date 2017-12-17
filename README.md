@@ -1,9 +1,9 @@
 # auto-demote
 Overlay top story from '/r/twosentencehorror' on top image from '/r/abandonedporn'
 
-Take the top story from the twosentencehorror subredding and overlay the text on the top image from the abandonedporn subreddit.
+Take the top story from the twosentencehorror subreddit and overlay the text on the top image from the abandonedporn subreddit.
 
-This to take into account:
+Things to take into account:
   You need your own credentials for both praw and imgur.
   File output location needs to be supplied
   Font file is not included and the path may need to be updated
