@@ -29,7 +29,9 @@ imgur_secret =  # Enter imgur secret
 current_date = datetime.datetime.now()
 file_location = os.path.expanduser(#PATH WHERE IMAGES ARE TO BE SAVED)
 tmp_file = file_location + "tmp.jpg"
-saved_file = file_location + "autoDemote_%s-%s-%s.jpg".format(current_date.year, current_date.month, current_date.day)
+saved_file = file_location + "autoDemote_%s-%s-%s.jpg".format(current_date.year,
+							      current_date.month, 
+							      current_date.day)
 
 story_source = 'twosentencehorror'
 image_source = 'abandonedporn'
@@ -38,9 +40,9 @@ font_path = "C:\\Windows\\Fonts\\ARJULIAN.ttf"  # Text path - may want to update
 current_date = datetime.datetime.now()
 
 r = praw.Reddit(client_id=praw_id,
-                client_secret=praw_secret,
+                client_secret=  # praw_secret,
                 password=  # Reddit password,
-                user_agent='autoDemote by /u/koberg',
+                user_agent='autoDemote by /u/koberg',  # You don't have to keep this
                 username=  # Reddit ID)
 
 
